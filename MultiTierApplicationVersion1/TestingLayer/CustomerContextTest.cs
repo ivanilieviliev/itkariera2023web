@@ -103,7 +103,7 @@ namespace TestingLayer
             Assert.AreEqual(firstCustomer, updatedCustomer, "Update method does not work!");
         }
 
-        
+        [Test]
         public async Task TestDelete()
         {
             int customersBefore = SetupFixture.DbContext.Customers.Count();
